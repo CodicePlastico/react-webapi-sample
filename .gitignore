@@ -1,3 +1,4 @@
 .vs
 node_modules
 .temp
+src/web-module/wwwroot/js/app.js
