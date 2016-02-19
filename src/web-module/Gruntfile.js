@@ -1,4 +1,4 @@
-/// <binding AfterBuild='default' />
+/// <binding />
 var path = require('path');
 
 var vendorJs = ['jquery', 'bootstrap', 'react', 'react-dom', 'react-router', 'react-datepicker', 'flux', 'superagent', 'lodash', 'numeral', 'moment', 'moment/locale/it', 'moment/locale/fr', 'moment/locale/de', 'moment/locale/es', 'cookie', 'async'];

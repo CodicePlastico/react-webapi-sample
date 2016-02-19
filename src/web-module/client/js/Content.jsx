@@ -1,6 +1,6 @@
 ﻿var React = require('react');
 var Hello = require('./Hello');
-var Values = require('./Values');
+var Values = require('./Values/ValuesList');
 module.exports = React.createClass({
 
     render: function () {
