@@ -31,7 +31,7 @@ module.exports = React.createClass({
     render: function () {
         return <div className="values">
             <ol>
-                {this.state.values.map(function (v) { return <Value val={v } />;})}
+                {this.state.values.map(function (v) { return <Value val={v}  key={v} />;})}
             </ol>
         </div>;
     }
