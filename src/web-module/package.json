@@ -11,24 +11,6 @@
     "build": "grunt build",
     "postinstall": "./node_modules/grunt-cli/bin/grunt build; "
   },
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "testFileExtensions": [
-      "jsx",
-      "js"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "jsx"
-    ],
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react"
-    ],
-    "testPathIgnorePatterns": [
-      "/node_modules/"
-    ]
-  },
   "author": "CodicePlastico srl",
   "license": "ISC",
   "dependencies": {
