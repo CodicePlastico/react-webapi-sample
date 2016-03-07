@@ -4,7 +4,7 @@ var actions = require('./ValuesActions');
 
 var Value = React.createClass({
     render: function () {
-        return <li>{this.props.val}</li>
+        return <li>{this.props.val.StringValue} ({this.props.val.IntValue})</li>
     }
 });
 
@@ -31,7 +31,7 @@ module.exports = React.createClass({
     render: function () {
         return <div className="values">
             <ol>
-                {this.state.values.map(function (v) { return <Value val={v}  key={v} />;})}
+                {this.state.values.map(function (v, i) { return <Value val={v}  key={i} />;})}
             </ol>
         </div>;
     }
